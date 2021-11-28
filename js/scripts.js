@@ -7,7 +7,8 @@ $(document).ready(function() {
     flavors.forEach(function(element) {
       flavors.push(element);
     });
-    console.log(flavor);
+    console.log(flavor)
+    console.log(flavors);
 
     $("ul").append("<li>" + flavor + "</li>");
   });
